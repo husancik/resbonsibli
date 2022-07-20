@@ -1,0 +1,257 @@
+.main-active {
+    &__container {
+      width: 1280px;
+      margin: 177px auto;
+      &-progress-menu {
+        width: 100%;
+        min-height: 653px;
+        background: #2c343e;
+        border-radius: 10px;
+      }
+      &-section-bar {
+        width: 1045px;
+        min-height: 455px;
+        padding-top: 83px;
+        margin-left: 85px;
+      }
+      &-bar {
+        position: relative;
+        width: 791px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &-inline-width {
+        width: 760px;
+        min-height: 2px;
+        background-color: #fdd6ba;
+      }
+      &-span-bar {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      &-circle {
+        width: 31px;
+        min-height: 31px;
+        border: 2px solid #0e8784;
+        border-radius: 50%;
+      }
+      &-progress-page {
+        width: 1045px;
+        display: flex;
+        column-gap: 85px;
+        margin-top: 67px;
+      }
+      &-items {
+        width: 285px;
+        min-height: 357px;
+      }
+      &-progress-title {
+        margin-bottom: 38px;
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #fdd6ba;
+      }
+      &-progress-text {
+        margin-bottom: 42px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #fefcf7;
+      }
+      &-progress-subtitle {
+        width: 285px;
+        font-family: "Barlow", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fefcf7;
+      }
+      &-questions-page {
+        display: flex;
+        column-gap: 125px;
+        margin-top: 159px;
+      }
+      &-item-left {
+        width: 255px;
+        min-height: 356px;
+      }
+      &-border-bottom {
+        width: 100%;
+        min-height: 1px;
+        margin-top: 24px;
+        display: block;
+        background: #83888f;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+      }
+      &-inline-root {
+        margin-bottom: 24px;
+      }
+      &-number {
+        margin-right: 28px;
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888f;
+        opacity: 0.5;
+      }
+      &-number--active {
+        color: #0e8784;
+      }
+      &-number--active-ss {
+        opacity: 1;
+      }
+      &-question-info {
+        display: inline-block;
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333d4b;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        opacity: 0.5;
+      }
+      &-question-info--active-ff {
+        opacity: 1;
+      }
+      &-section-info {
+        width: 730px;
+        min-height: 354px;
+        margin-bottom: 88px;
+      }
+      &-section-header-title {
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888f;
+        &:hover {
+          color: #0e8784;
+          cursor: pointer;
+        }
+      }
+      &-section-header-drop-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &-section-body {
+        display: flex;
+        column-gap: 23px;
+        margin-top: 56px;
+      }
+      &-card-items {
+        width: 228px;
+        min-height: 250px;
+        background: #f4f1eb;
+        border-radius: 8px;
+        &:hover {
+          transform: scale(1.05);
+          cursor: pointer;
+        }
+      }
+      &-card-items--active {
+        background: #0e8784;
+      }
+      &-body-title {
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        margin-left: 28px;
+        margin-top: 32px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333d4b;
+      }
+      &-body-subtitle {
+        width: 172px;
+        margin-top: 24px;
+        margin-left: 28px;
+        font-family: "Barlow", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333d4b;
+      }
+      &-body-title--white {
+        color: #fff;
+      }
+      &-body-subtitle-white {
+        color: #fff;
+      }
+      &-card-items-color {
+        background: #0e8784;
+      }
+      &-body-title-color {
+        color: #fff;
+      }
+      &-order-page {
+        width: 730px;
+        min-height: 208px;
+        border: 1px solid transparent;
+        background: #2c343e;
+      }
+      &-order-page-title {
+        font-family: "Barlow", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+      &-order-page-subtitle {
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #ffffff;
+      }
+      &-order-page-text {
+        width: 602px;
+        margin: 27px auto;
+      }
+      &-span {
+        color: #0e8784;
+      }
+      &-link {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 513px;
+        background: #66d2cf;
+        border-radius: 6px;
+        background-color: #0093e9;
+        background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+        background-size: 100%;
+        padding: 15px 35px;
+        font-family: "Fraunces", serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #fefcf7;
+        transition: background 1s ease;
+        &:hover {
+          background-color: #8ec5fc;
+          background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+          background-position: 215px;
+        }
+      }
+    }
+  }
